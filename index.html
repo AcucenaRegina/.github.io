@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Covid-19</title>
+    <script src="JavaScript.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>
+        Olá <span class="nomeUsuario"></span>, vamos testar seus conhecimentos?
+      </h1>
+    </header>
+
+    <div class="caixa">
+      <section id="questao1">
+        <h2>Em qual ano foi decretado o início da pandemia de Covid-19?</h2>
+          <input type="radio" id="resposta1" name="questao1" value="2019">
+            <label for="resposta1">2019</label><br>
+          <input type="radio" id="resposta2" name="questao1" value="2020">
+            <label for="resposta2">2020</label><br>
+          <input type="radio" id="resposta3" name="questao1" value="2021">
+            <label for="resposta3">2021</label><br />
+          <button onclick="validarResposta1()">Ver Resposta</button>
+      </section>
+
+      <section id="questao2">
+        <h2>Qual a melhor forma de prevenir a Covid-19?</h2>
+          <input type="radio" id="resposta1" name="questao2" value="Lave as mãos,faça aglomerações, use máscara.">
+            <label for="resposta1">Lave as mãos,faça aglomerações, use máscara.</label><br>
+          <input type="radio" id="resposta2" name="questao2" value="Lave as mãos, evite aglomerações, não utilize máscara.">
+            <label for="resposta2">Lave as mãos, evite aglomerações, não utilize máscara.</label><br>
+          <input type="radio" id="resposta3" name="questao2" value="Lave as mãos, evite aglomerações, evite tocar nos olhos, e na boca.">
+            <label for="resposta3">Lave as mãos, evite aglomerações, evite tocar nos olhos, e na boca.</label><br>
+        <button onclick="validarResposta2()">Ver Resposta</button>
+      </section>
+    </div>
+
+    <br>
+    <br>
+    <div>
+      <section class="link">
+        <a href="https://www.gov.br/saude/pt-br/coronavirus/como-se-proteger" target="_blank"> Clique aqui para mais infomações sobre Covid-19 </a>
+      </section>
+    </div>
+  </body>
+</html>
