@@ -27,10 +27,8 @@ button {
     
     }
 .link {
-    max-width: 700px;
-    margin: auto;
-    padding: 20px ;
+    text-decoration: none;
     text-align: center;
-    box-sizing: border-box;
-
+    border: solid coral;
+    
 }
